@@ -1,0 +1,7 @@
+.calc__display{
+ margin: 0 auto;
+ width: 500px;
+ height: 20px;
+ background-color: black;
+ color: greenyellow;
+}
