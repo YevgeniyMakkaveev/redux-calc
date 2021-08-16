@@ -1,0 +1,133 @@
+@import "./const";
+.theme__blue {
+  background-color: $themeBlueBg;
+
+  .label__text {
+    color: white;
+  }
+  .theme__wrap label {
+    color: white;
+  }
+  .calc__display {
+    background-color: $themeBlueScreenBg;
+    color: white;
+  }
+  .theme__radio {
+    background-color: $themeBlueScreenBg;
+  }
+
+  input[type="radio"]:checked:before {
+    background: $themeBlueEqual;
+  }
+
+  .btn__keyboard {
+    background-color: $themeBlueToggle;
+    .btn_special {
+      background-color: $themeBlueDelKey;
+      color: white;
+      box-shadow: 0 5px ($themeBlueDelShadow);
+    }
+    .btn__red {
+      background-color: $themeBlueEqual;
+      box-shadow: 0 5px ($themeBlueEqualShadow);
+      color: white;
+    }
+    .btn__regular {
+      background-color: $themeBlueKeyBack;
+      box-shadow: 0 5px ($themeBlueKeyShadow);
+      color: $themeBlueText1;
+    }
+  }
+}
+
+.theme__brown {
+  background-color: $themeBrownBg;
+
+  .label__text {
+    color: $themeBrownText1;
+  }
+
+  .theme__wrap label {
+    color: $themeBrownText1;
+  }
+  .theme__radio {
+    background-color: $themeBrownScreenBg;
+  }
+
+  input[type="radio"]:checked:before {
+    background: $themeBrownEqual;
+  }
+
+  .calc__display {
+    background-color: $themeBrownScreenBg;
+    color: $themeBrownText1;
+  }
+
+  .btn__keyboard {
+    background-color: $themeBrownToggle;
+
+    .btn_special {
+      background-color: $themeBrownDelKey;
+      color: white;
+      box-shadow: 0 5px ($themeBrownDelShadow);
+    }
+
+    .btn__red {
+      background-color: $themeBrownEqual;
+      box-shadow: 0 5px ($themeBrownEqualShadow);
+      color: white;
+    }
+
+    .btn__regular {
+      background-color: $themeBrownKeyBack;
+      box-shadow: 0 5px ($themeBrownKeyShadow);
+      color: $themeBrownText1;
+    }
+  }
+}
+
+.theme__purple {
+  background-color: $themePurpleBg;
+
+  .label__text {
+    color: $themePurpleText1;
+  }
+
+  .theme__wrap label {
+    color: $themePurpleText1;
+  }
+
+  .theme__radio {
+    background-color: $themePurpleScreenBg;
+  }
+
+  input[type="radio"]:checked:before {
+    background: $themePurpleEqual;
+  }
+  .calc__display {
+    background-color: $themePurpleScreenBg;
+    color: $themePurpleText1;
+  }
+
+  .btn__keyboard {
+    background-color: $themePurpleToggle;
+
+    .btn_special {
+      background-color: $themePurpleDelKey;
+      color: white;
+      box-shadow: 0 5px ($themePurpleDelShadow);
+    }
+
+    .btn__red {
+      background-color: $themePurpleEqual;
+      box-shadow: 0 5px ($themePurpleEqualShadow);
+      color: white;
+    }
+
+    .btn__regular {
+      background-color: $themePurpleKeyBack;
+      box-shadow: 0 5px ($themePurpleKeyShadow);
+      color: $themePurpleText1;
+    }
+  }
+}

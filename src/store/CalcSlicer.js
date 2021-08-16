@@ -57,7 +57,7 @@ const calc = createSlice({
         action.payload === "="
       ) {
         const res = Math.pow(+num1, 2);
-        state.num1 = `${res}`.slice(0, 8);
+        state.num1 = `${res}`;
         state.calcAction = null;
         state.num1Reset = true;
       } else if (num2 === "") {
@@ -65,7 +65,7 @@ const calc = createSlice({
         state.num1Reset = false;
       } else {
         const res = eval(`${num1} ${calcAction} ${num2}`);
-        state.num1 = `${res}`.slice(0, 8);
+        state.num1 = `${res}`;
         state.num2 = "";
 
         if (action.payload === "=") {
@@ -89,5 +89,5 @@ const calc = createSlice({
   },
 });
 
-export const { getAction, getNum, backspace } = calc.actions;
+export const { getAction, getNum, backspace, reset } = calc.actions;
 export default calc.reducer;
