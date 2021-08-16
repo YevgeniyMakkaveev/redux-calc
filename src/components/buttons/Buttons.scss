@@ -3,7 +3,7 @@
   padding: 1em;
   width: 95%;
   height: auto;
-  max-width: 850px;
+  max-width: 800px;
   display: grid;
   border-radius: 1em;
   .keyboard__group {
@@ -42,7 +42,7 @@
 }
 @media screen and (min-width: 800px){
 .btn__keyboard{
- padding: 3em;
+ padding: 3em 1em 3em 3em;
 }
 .keyboard__group{
   gap: 1em;
@@ -52,5 +52,6 @@
  }
 .nest__big{
  margin: 2em auto 0 !important;
+ padding: 0 1em 0 0;
 }
 }
