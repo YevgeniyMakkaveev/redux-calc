@@ -29,7 +29,7 @@ function App() {
       <div className="app__wrap">
         <div className="head">
           <div className="head__label">
-            <h2 className="label__text">calc</h2>
+            <h2 className="label__text big__label">calc</h2>
           </div>
           <div className="theme__control">
             <h4 className="label__text text__theme">THEME</h4>

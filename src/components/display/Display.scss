@@ -1,10 +1,12 @@
 .calc__display{
  margin: 0 auto;
- width: 80%;
-font-size: 32px;
+ width: 95%;
+ max-width: 900px;
+font-size: 42px;
+border-radius: 0.5em;
 .small__display{
  font-size: 10px;
  width: auto;
- min-height: 15px;
+ min-height: 18px;
 }
 }

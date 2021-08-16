@@ -9,7 +9,7 @@ body {
 .app {
   text-align: center;
   width: 100%;
-  height: 100vh;
+  height: 100%;
 
   .app__wrap {
     margin: 0 auto;
@@ -27,6 +27,9 @@ body {
     justify-content: space-between;
     margin-bottom: 10px;
   }
+   .big__label {
+     font-size: 32px;
+   }
   .theme__control {
     display: flex;
   }
@@ -38,6 +41,7 @@ body {
     align-self: flex-end;
     padding-right: 2em;
   }
+ 
   .theme__wrap {
     display: flex;
     flex-direction: column;
