@@ -1,9 +1,11 @@
 .calc__display{
  margin: 0 auto;
  width: 95%;
- max-width: 900px;
+ max-width: 850px;
 font-size: 42px;
 border-radius: 0.5em;
+text-align: right;
+padding-right: 1em;
 .small__display{
  font-size: 10px;
  width: auto;
