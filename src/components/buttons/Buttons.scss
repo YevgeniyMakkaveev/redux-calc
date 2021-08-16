@@ -1,7 +1,8 @@
 .btn__keyboard {
-  margin: 2em auto;
+  margin: 2em auto ;
   padding: 1em;
   width: 95%;
+  height: auto;
   max-width: 900px;
   display: grid;
   border-radius: 1em;
@@ -26,7 +27,7 @@
     width: 100%;
     font-size: 30px;
     display: grid;
-    margin: 3em auto;
+    margin: 1em auto 0;
     grid-template-columns: repeat(2, 1fr);
     gap: 2em;
 
@@ -49,5 +50,7 @@
  button {
   font-size: 32px !important;
  }
-
+.nest__big{
+ margin: 2em auto 0 !important;
+}
 }
