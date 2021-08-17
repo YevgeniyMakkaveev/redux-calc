@@ -19,6 +19,9 @@
   input[type="radio"]:checked:before {
     background: $themeBlueEqual;
   }
+  a{
+    color: $themeBlueEqual;
+  }
 
   .btn__keyboard {
     background-color: $themeBlueToggle;
@@ -84,6 +87,9 @@
       color: $themeBrownText1;
     }
   }
+   a {
+     color: $themeBrownEqual;
+   }
 }
 
 .theme__purple {
@@ -130,4 +136,7 @@
       color: $themePurpleText1;
     }
   }
+   a {
+     color: $themePurpleEqual;
+   }
 }

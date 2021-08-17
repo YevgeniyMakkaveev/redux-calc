@@ -41,6 +41,14 @@ function App() {
         <Display />
         <Buttons />
       </div>
+      <a
+        rel="noreferrer"
+        target="_blank"
+        href="https://github.com/YevgeniyMakkaveev"
+        className="btn__red"
+      >
+        coded by Yevgeny Makkaveev
+      </a>
     </div>
   );
 }
