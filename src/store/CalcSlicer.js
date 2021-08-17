@@ -61,7 +61,7 @@ const calc = createSlice({
         state.calcAction = null;
         state.num1Reset = true;
       } else if (num2 === "") {
-        state.calcAction = action.payload;
+        state.calcAction = action.payload !== "=" ? action.payload : null;
         state.num1Reset = false;
       } else {
         const res = eval(`${num1} ${calcAction} ${num2}`);
