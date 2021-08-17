@@ -6,7 +6,7 @@ import Buttons from "../buttons";
 function App() {
   const [colourTheme, setTheme] = useState("theme__blue");
 
-  const ratioMaker = (themeName, label) => {
+  const radioMaker = (themeName, label) => {
     return (
       <div className="theme__wrap">
         <label htmlFor={themeName}> {label}</label>
@@ -33,9 +33,9 @@ function App() {
           </div>
           <div className="theme__control">
             <h4 className="label__text text__theme">THEME</h4>
-            {ratioMaker("theme__blue", 1)}
-            {ratioMaker("theme__brown", 2)}
-            {ratioMaker("theme__purple", 3)}
+            {radioMaker("theme__blue", 1)}
+            {radioMaker("theme__brown", 2)}
+            {radioMaker("theme__purple", 3)}
           </div>
         </div>
         <Display />
