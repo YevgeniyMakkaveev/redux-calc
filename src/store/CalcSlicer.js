@@ -13,6 +13,28 @@ const inputControl = (field, action) => {
     return field + `${input}`;
   }
 };
+const calcIt = (num1, num2, action) => {
+  const n1 = +num1;
+  const n2 = +num2;
+  let res;
+  switch (action) {
+    case "+":
+      res = n1 + n2;
+      break;
+    case "-":
+      res = n1 - n2;
+      break;
+    case "*":
+      res = n1 * n2;
+      break;
+    case "/":
+      res = n1 / n2;
+      break;
+    default:
+      res = n1 + n2;
+  }
+  return res;
+};
 
 const remover = (str) => {
   if (str !== "") {
@@ -64,7 +86,7 @@ const calc = createSlice({
         state.calcAction = action.payload !== "=" ? action.payload : null;
         state.num1Reset = false;
       } else {
-        const res = eval(`${num1} ${calcAction} ${num2}`);
+        const res = calcIt(num1, num2, calcAction);
         state.num1 = `${res}`;
         state.num2 = "";
 
